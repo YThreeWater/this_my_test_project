@@ -7,7 +7,7 @@ public class testLazySingleton {
         LazySingleton lazySingletonInstance1 = LazySingleton.getLazySingletonInstance();
         LazySingleton lazySingletonInstance2 = LazySingleton.getLazySingletonInstance();
         LazySingleton lazySingletonInstance3 = LazySingleton.getLazySingletonInstance();
-        System.out.println(lazySingletonInstance1+"1111");
+        System.out.println(lazySingletonInstance1+"");
         System.out.println(lazySingletonInstance2);
         System.out.println(lazySingletonInstance3);
     }
